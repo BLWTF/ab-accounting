@@ -1,0 +1,32 @@
+{
+    "alias": "double-entry",
+    "icon": "fa fa-balance-scale",
+    "version": "2.1.3",
+    "active": 1,
+    "providers": [
+        "Modules\\DoubleEntry\\Providers\\Event",
+        "Modules\\DoubleEntry\\Providers\\DynamicRelations",
+        "Modules\\DoubleEntry\\Providers\\Main",
+        "Modules\\DoubleEntry\\Providers\\Observer",
+        "Modules\\DoubleEntry\\Providers\\Validation",
+        "Modules\\DoubleEntry\\Providers\\ViewComposer"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": [],
+    "reports": [
+        "Modules\\DoubleEntry\\Reports\\GeneralLedger",
+        "Modules\\DoubleEntry\\Reports\\BalanceSheet",
+        "Modules\\DoubleEntry\\Reports\\TrialBalance"
+    ],
+    "widgets": [
+        "Modules\\DoubleEntry\\Widgets\\TotalIncomeByCoa",
+        "Modules\\DoubleEntry\\Widgets\\TotalExpensesByCoa",
+        "Modules\\DoubleEntry\\Widgets\\TotalProfitByCoa",
+        "Modules\\DoubleEntry\\Widgets\\IncomeByCoa",
+        "Modules\\DoubleEntry\\Widgets\\ExpensesByCoa",
+        "Modules\\DoubleEntry\\Widgets\\LatestIncomeByCoa",
+        "Modules\\DoubleEntry\\Widgets\\LatestExpensesByCoa"
+    ],
+    "settings": []
+}
